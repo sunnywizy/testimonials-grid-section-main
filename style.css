@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background: #ecf2f8;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.article-1 {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px 0;
+    padding: 30px;
+    background: #7541c8;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.quotation-mark {
+    position: absolute;
+    top: 7.2%;
+    right: 19%;
+    z-index: 1;
+}
+
+.pro-position {
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+
+.pro-position img {
+    border-radius: 50%;
+    border: #9169d1 4px solid;
+    margin-right: 20px;
+}
+
+.status {
+    margin: 5px 0;
+    opacity: 50%;
+}
+
+.title {
+    margin: 20px 0;
+}
+
+.text {
+    opacity: 70%;
+}
+
+.article-2 {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px 0;
+    border-radius: 8px;
+    padding: 30px;
+    color: #ffffff;
+    background: #48556a;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    margin-right: 20px;
+    border-radius: 50%
+}
+
+.article-3 {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+    border-radius: 8px;
+    padding: 30px;
+    color: #48556a;
+    background: #ffffff;
+}
+
+.article-4 {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 0;
+    border-radius: 8px;
+    padding: 30px;
+    color: #ffffff;
+    background:  #19212e;
+}
+
+.article-4 .profile img {
+    border: #9169d1 4px solid;
+}
+
+.article-5 {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 0;
+    border-radius: 8px;
+    padding: 30px;
+    color: #48556a;
+    background: #ffffff;
+}
+
+.attribution { 
+    font-size: 16px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.attribution a { 
+    color: #3e52a3; 
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 1000px) {
+
+    .name {
+        font-size: 10px;
+    }
+    .row {
+        display: flex;
+    }
+
+    .section-1 {
+        width: 70%;
+    }
+
+    .section-2 {
+        width: 30%;
+        margin-left: 20px;
+  
+    }
+
+    .article-1 {
+        width: 450px;
+        margin-right: 20px;
+        height: 350px;
+    }
+
+    .article-2 {
+        width: 280px;
+        height: 350px;
+    }
+
+     .article-3 {
+        width: 280px;
+        height: 350px;
+        margin-right: 20px;
+    }
+
+      .article-4 {
+        width: 450px;
+        height: 350px;
+    }
+
+    .article-5 {
+        height: 740px;
+    }
+
+    .quotation-mark {
+        top: 6.2%;
+        left: 33%;
+    }
+}
